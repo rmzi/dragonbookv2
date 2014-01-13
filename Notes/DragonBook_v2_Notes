@@ -1,0 +1,20 @@
+Chapter 1 : Introduction
+------------------------
+
+Compiler: Software systems that translate a source program to a target program, i.e. C to Machine language
+
+Interpreter: Directly executes operations specified in the source program on inputs supplied by the user
+
+Ex. Java
+  - Java has both.
+    - Java -(compiles to)-> bytecodes -(interpreted by)-> VM
+    - To have faster i/o Java uses JIT (just in time) compilers to translate bytecodes into machine language
+
+Preprocessor: collects source program divided into modules stored in separate files
+  - May also expand shorthands, called macros, into source language statements
+
+Assembler: Sometimes, compilers produce an assembly-language program. The assembler produces relocatable machine code as its output.
+
+Linker: Resolves external memory addresses, where code may refer to a location in another file
+
+Loader: Puts together all of the executable object files into memory for execution
